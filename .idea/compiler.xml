@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="backend_main" target="1.8" />
-      <module name="backend_test" target="1.8" />
+      <module name="kavi.main" target="1.8" />
+      <module name="kavi.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

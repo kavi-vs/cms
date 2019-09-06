@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kavi:vertx-beans:1.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kavi/vertx-beans/1.3.0/286679364992c3dac4bdab5572f6816cd6b9dfff/vertx-beans-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kavi/vertx-beans/1.3.0/5ba52752228e9bc893b82ea513af31db2743a0dd/vertx-beans-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

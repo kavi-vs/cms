@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/backend.iml" filepath="$PROJECT_DIR$/backend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_main.iml" group="backend" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_test.iml" group="backend" />
+      <module fileurl="file://$PROJECT_DIR$/kavi.iml" filepath="$PROJECT_DIR$/kavi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kavi.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kavi.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kavi.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kavi.test.iml" />
     </modules>
   </component>
 </project>

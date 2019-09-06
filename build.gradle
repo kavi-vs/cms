@@ -2,25 +2,51 @@ plugins {
   id 'java'
   id 'application'
   id 'com.github.johnrengelman.shadow' version '1.2.3'
+  id 'org.jetbrains.kotlin.jvm' version '1.3.0'
+  id 'org.jetbrains.kotlin.plugin.spring' version '1.3.0'
 }
-mainClassName = "token.Launch"
+
 repositories {
   jcenter()
   jcenter { url "https://dl.bintray.com/kavi/vts" }
 }
-sourceCompatibility = '1.8'
-
+ext {
+  VERTX_VERSION = '3.8.1'
+  SPRING_VERSION = '5.1.4.RELEASE'
+  VERTX_BEAN_VERSION = '1.3.0'
+  VERTX_MYBATIS_VERSION = '1.1.5'
+}
 dependencies {
-  compile "io.vertx:vertx-core:3.6.0"
-  compile "org.springframework:spring-context:5.1.3.RELEASE"
-  compile 'com.kavi:vertx-beans:1.1.0'
+  compile "io.vertx:vertx-core:$VERTX_VERSION"
+  compile "io.vertx:vertx-web:$VERTX_VERSION"
+  compile "org.springframework:spring-context:$SPRING_VERSION"
+  compile "com.kavi:vertx-beans:$VERTX_BEAN_VERSION"
+  compile "com.kavi:vertx-mybatis-spring-async:$VERTX_MYBATIS_VERSION"
 }
 
+
+/**
+ * 主启动类
+ * */
+mainClassName = "kavi.vertx.Launch"
 shadowJar {
   classifier = 'fat'
   mergeServiceFiles {
     include 'META-INF/services/io.vertx.core.spi.VerticleFactory'
   }
+}
+sourceCompatibility = '1.8'
+
+compileKotlin {
+  kotlinOptions.jvmTarget = sourceCompatibility
+}
+compileTestKotlin {
+  kotlinOptions.jvmTarget = sourceCompatibility
+}
+
+compileJava {
+  targetCompatibility = sourceCompatibility
+  sourceCompatibility = sourceCompatibility
 }
 
 
