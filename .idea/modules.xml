@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/kavi.iml" filepath="$PROJECT_DIR$/kavi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kavi.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kavi.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kavi.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kavi.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vs-cms.iml" filepath="$PROJECT_DIR$/.idea/modules/vs-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vs-cms.main.iml" filepath="$PROJECT_DIR$/.idea/modules/vs-cms.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vs-cms.test.iml" filepath="$PROJECT_DIR$/.idea/modules/vs-cms.test.iml" />
     </modules>
   </component>
 </project>

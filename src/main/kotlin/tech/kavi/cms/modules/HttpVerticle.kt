@@ -1,11 +1,11 @@
-package tech.kavi.vs.modules
+package tech.kavi.cms.modules
 
 import io.vertx.core.AbstractVerticle
 import io.vertx.ext.web.Router
-import tech.kavi.vs.modules.api.ApiController
+import tech.kavi.cms.modules.api.ApiController
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
-import tech.kavi.vs.modules.api.user.UserInfoHandler
+import tech.kavi.cms.modules.api.user.UserInfoHandler
 
 /**
  * web处理器

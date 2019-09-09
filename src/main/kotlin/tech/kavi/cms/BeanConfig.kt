@@ -1,9 +1,9 @@
-package tech.kavi.vs
+package tech.kavi.cms
 
 import io.vertx.core.Vertx
 import io.vertx.ext.web.Router
 import org.springframework.context.annotation.Bean
-import vts.vertxbeans.VertxBeans
+import tech.kavi.vs.core.VertxBeans
 
 /**
  * 依赖参数全局初始化

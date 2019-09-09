@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="kavi.main" target="1.8" />
       <module name="kavi.test" target="1.8" />
+      <module name="vs-cms.main" target="1.8" />
+      <module name="vs-cms.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
