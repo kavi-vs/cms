@@ -1,0 +1,26 @@
+{
+  "mybatis": [
+    {
+      "name":"db1",
+      "mapperLocations": ["classpath:mapper/*"],
+      "basePackage": ["tech.kavi.cms.dao"],
+      "typeAliasesPackage": ["tech.kavi.cms.entity"],
+      "dataSource": {
+        "url": "jdbc:mysql://10.93.165.250:3306/zpj-mybatis-test01?characterEncoding=UTF-8&serverTimezone=UTC",
+        "username": "mybatis",
+        "password": "2wKSDH8_293BYjk",
+        "driverClass": "com.mysql.jdbc.Driver"
+      }
+    },
+    {
+      "name":"db2",
+      "basePackage": ["tech.kavi.cms.mapper"],
+      "dataSource": {
+        "url": "jdbc:mysql://10.93.165.250:3306/zpj-mybatis-test01?characterEncoding=UTF-8&serverTimezone=UTC",
+        "username": "mybatis",
+        "password": "2wKSDH8_293BYjk",
+        "driverClass": "com.mysql.jdbc.Driver"
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-package tech.kavi.cms.modules.api
+package tech.kavi.cms.module.api
 
 import tech.kavi.vs.web.Controller
 import tech.kavi.vs.web.HandlerScan

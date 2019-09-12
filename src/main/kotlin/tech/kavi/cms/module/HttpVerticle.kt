@@ -1,11 +1,10 @@
-package tech.kavi.cms.modules
+package tech.kavi.cms.module
 
 import io.vertx.core.AbstractVerticle
 import io.vertx.ext.web.Router
-import tech.kavi.cms.modules.api.ApiController
+import tech.kavi.cms.module.api.ApiController
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
-import tech.kavi.cms.modules.api.user.UserInfoHandler
 
 /**
  * web处理器
@@ -33,7 +32,7 @@ class HttpVerticle : AbstractVerticle() {
 
         vertx.createHttpServer().requestHandler(router).listen(80){
             if (it.succeeded()) {
-                println("成功启动监听端口")
+                println("成功启动监听端口:${it.result().actualPort()}")
             } else {
                 println("failed")
             }
